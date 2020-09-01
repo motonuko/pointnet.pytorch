@@ -9,6 +9,7 @@ from tqdm import tqdm
 import json
 from plyfile import PlyData, PlyElement
 
+
 def get_segmentation_classes(root):
     catfile = os.path.join(root, 'synsetoffset2category.txt')
     cat = {}
